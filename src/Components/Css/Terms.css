@@ -1,0 +1,15 @@
+.terms-p {
+  line-height: 1;
+  font-size: 0.9rem !important;
+}
+
+.Terms-container {
+  margin: auto;
+  width: 50vw;
+}
+@media (max-width: 576px) {
+  .Terms-container {
+    /* margin: auto; */
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+body{
+  overflow-x: hidden;
+}
+
+#About {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://www.masongarments.com/cdn/shop/files/WoutervanderSar_23041400-01_5.jpg?v=1703236812&width=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#About p {
+  letter-spacing: 3px;
+}

@@ -1,0 +1,31 @@
+body{
+    overflow-x: hidden;
+}
+
+#LodgeHeader{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://www.masongarments.com/cdn/shop/files/The_Lodge_7.4.jpg?v=1705370359&width=1800");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lodgeForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.lodgeForm input{
+    outline: none;
+}
+.lodgeForm input [placeholder="E-mail"]{
+    color: #fff !important;
+}
+.lodgeForm button{
+    font-size: .9rem;
+    letter-spacing: 2px;
+}

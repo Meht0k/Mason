@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden;
+}
+#Women {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.women-card {
+  height: 50vh !important;
+  cursor: pointer;
+}
+.women-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.women-card:hover .icon {
+  opacity: 1;
+}
+
+.filter-canvas {
+  width: 40vw !important;
+}
+
+.accordion-button::after {
+  background-image: initial;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: initial;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+@media (max-width: 576px) {
+  .filter {
+    display: none;
+  }
+}
+@media (max-width: 778px) {
+  .filter {
+    display: none;
+  }
+}

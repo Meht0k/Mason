@@ -1,0 +1,59 @@
+body {
+  overflow-x: hidden;
+}
+
+#Accessories {
+  height: auto;
+  width: 100%;
+  background: #faf7f1;
+}
+
+.Access-card {
+  height: 50vh !important;
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Access-card:hover .icon {
+  opacity: 1;
+}
+
+.filter-canvas {
+  width: 40vw !important;
+}
+
+.accordion-button::after {
+  background-image: initial;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: initial;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+@media (max-width: 576px) {
+  .filter {
+    display: none;
+  }
+}
+@media (max-width: 778px) {
+  .filter {
+    display: none;
+  }
+}

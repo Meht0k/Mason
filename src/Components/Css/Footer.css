@@ -1,0 +1,49 @@
+#Footer {
+  width: 100%;
+  background: #f8f0e2;
+}
+
+.subscribe-input {
+  outline: none;
+}
+
+.subs-btn {
+  color: #1c1c1c !important;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.subs-btn:hover {
+  color: white !important;
+  transition: all 0.4s ease;
+}
+
+.subs-btn::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #1c1c1c;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.subs-btn:hover::before {
+  left: 0;
+  border-radius: 0;
+}
+
+.icons:hover {
+  transition: all 0.4s ease;
+  color: #000 !important;
+}
+
+.svgs svg {
+  margin: 0 0.5rem;
+  mix-blend-mode: darken;
+}

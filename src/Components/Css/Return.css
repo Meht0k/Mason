@@ -1,0 +1,22 @@
+body {
+  overflow-x: hidden;
+}
+
+.Return {
+  height: auto;
+  width: 100%;
+}
+
+.return-container {
+  margin: auto;
+  width: 50vw;
+}
+.return-container p {
+  letter-spacing: 0.5px;
+}
+@media (max-width: 576px) {
+  .return-container {
+    /* margin: auto; */
+    width: 100%;
+  }
+}

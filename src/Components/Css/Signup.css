@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+}
+
+#Signup{
+    height: 100vh;
+    width: 100%;
+    background: #FAF7F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupForm{
+    width: 25vw;
+    padding: 2rem;
+}
+.signupForm button {
+    position: relative;
+    transition: all .4s ease;
+    z-index: 1;
+    overflow: hidden;
+}
+.signupForm button:hover {
+    color: white;
+}
+.signupForm button::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #1F1511 !important;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    border-radius: 50px;
+    z-index: -1;
+    transition: all .4s ease;
+}
+.signupForm button:hover:before{
+    left: 0;
+    border-radius: 0;
+} 
+.form-check-input:checked{
+    background-color: #1F1511 !important; 
+    color: #FAF7F1;
+}
+.sign-btn:hover{
+    color: #1F1511 !important;
+}

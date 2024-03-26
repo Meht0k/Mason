@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+#NewArrival {
+  height: auto;
+  width: 100%;
+}
+
+#SwiperCarousel {
+  width: 100%;
+}
+
+.mySwiper {
+  width: 100%;
+  cursor: grabbing;
+}
+
+.Arrival-card {
+  position: relative;
+  height: 50vh !important;
+  width: 100%;
+  border: none !important;
+}
+
+.Arrival-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Arrival-card .card-body {
+  position: absolute;
+  bottom: 0;
+}
+
+.Arrival-card a {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,151 @@
+body {
+  overflow-x: hidden;
+  background: #fdfbf7;
+}
+
+#Header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#Header video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Summer {
+  height: 90vh;
+  width: 100%;
+  background: url("https://www.masongarments.com/cdn/shop/files/secondbanner2.jpg?v=1705333706&width=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.summer-btn {
+  border: 0.1px solid #1c1c1c;
+  color: #1c1c1c;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.summer-btn:hover {
+  border: 0.1px solid #1c1c1c;
+  transition: all 0.4s ease;
+  color: #fff;
+}
+.summer-btn::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #1c1c1c;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.summer-btn:hover::before {
+  border-radius: 0;
+  left: 0;
+}
+
+#Discover {
+  height: auto;
+  width: 100%;
+  background: #faf7f1;
+  overflow: hidden;
+}
+
+.discoverCard {
+  height: 85vh;
+  position: relative;
+  overflow: hidden !important;
+  /* background: #000 !important; */
+}
+.discoverCard img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.discoverCard .card-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.discoverCard a {
+  letter-spacing: 2px;
+  font-weight: normal !important;
+}
+
+#craftHeader {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  cursor: pointer;
+}
+#craftHeader video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#craftHeader p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  letter-spacing: 4px;
+  pointer-events: none;
+}

@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
+#Content {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#Content video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+#text {
+  height: 40vh;
+  width: 100%;
+  background: #faf7f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.text-p {
+  width: 85%;
+  margin-left: 12.5%;
+}
